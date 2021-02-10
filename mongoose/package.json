@@ -1,0 +1,17 @@
+{
+  "name": "mongoose-orm-bench",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node --expose-gc perf"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.19",
+    "@types/mongoose": "^5.10.3",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.11.15"
+  }
+}

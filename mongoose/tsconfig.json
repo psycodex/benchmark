@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "moduleResolution": "node",
+    //     "allowJs": true,                       /* Allow javascript files to be compiled. */
+    //     "checkJs": true                       /* Report errors in .js files. */
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": false,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".."
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/dist"
+  ]
+}
